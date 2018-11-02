@@ -1,6 +1,10 @@
-# Scala and sbt Dockerfile
+# sbt+scala docker #
 
-This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org) and [sbt](http://www.scala-sbt.org).
+## build ##
+
+```
+docker build -t sbt-scala:1.0-scala-2.11.12-sbt-1.1.2 --build-arg SCALA_VERSION=2.11.12 --build-arg SBT_VERSION=1.1.2 .
+```
 
 ## Usage ##
 
